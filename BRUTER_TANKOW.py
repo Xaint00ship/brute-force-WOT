@@ -1,9 +1,8 @@
 from selenium import webdriver
 import time
 url = 'https://ru.wargaming.net/shop/redeem/'
-from telebot import apihelper
-#apihelper.proxy = {'https': 'socks5://mazafaka:mazafaka123@178.128.24.1:1080'}
-apihelper.proxy = {'https': 'socks5://72.210.252.152:1080'}
+
+
 def main():
     driver = webdriver.Chrome()
     driver.get(url)
