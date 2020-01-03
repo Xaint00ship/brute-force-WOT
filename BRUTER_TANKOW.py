@@ -9,10 +9,10 @@ def main():
 
     time.sleep(6)
     login = driver.find_element_by_class_name('js-login-input')
-    login.send_keys('xaint225@gmail.com')
+    login.send_keys('login')
 
     password = driver.find_element_by_class_name('js-password-input')
-    password.send_keys('22061973zxcvbnm1R')
+    password.send_keys('pass')
 
 
     btn_log = driver.find_element_by_class_name('button-airy')
